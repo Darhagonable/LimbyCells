@@ -1,0 +1,18 @@
+key parent CreatureEditorTemplates!LimbRigblockTemplate
+texts blockName
+	(CellRigblocks!0xc15cfa84) "(PLACEHOLDER)"
+end
+key modelBlockUpgradesTo cell_parts~!limb_uberlimb_forearm
+bool modelCanBeParentless true
+int32 modelCapabilityLimb 1
+int32 modelCapabilitySpine 1
+int32 modelComplexityScore 1
+bool modelIsVertebra true
+bool modelHasSocketConnector true
+key modelMaxMuscleFile editor_muscles~!Muscle_mkforearmUberLimbE.prop
+vector3 modelMaxSocketConnectorOffset (0, -0.895, 0)
+key modelMeshHull editor_rigblocks~!ce_basic_bone-Hull.rw4
+key modelMeshLOD0 editor_rigblocks~!ce_stretch_bone.rw4
+key modelMinMuscleFile editor_muscles~!Muscle_mkforearmUberLimb.prop
+vector3 modelMinSocketConnectorOffset (0, -0.145, 0)
+bool modelUseSkin true

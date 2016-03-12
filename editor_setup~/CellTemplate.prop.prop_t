@@ -1,0 +1,110 @@
+key parent editor_setup~!GlobalTemplate.prop
+string16 description "Cell Editor Setup"
+int32 ThumbnailEffect 1
+float ThumbnailLowering 0.3
+bool editorAllowPublish false
+float editorAnimationInterruptDistance 30
+string16 editorAssembledContentDirectory "Content/AssembledContent/Cells"
+key editorBackgroundMusicPatch music_cell_editor
+float editorBoundSize 2
+texts editorBudgetTooltip
+	(tooltips!0x064d2882) "DNA Budget (PLACEHOLDER)"
+end
+key editorBuyItemEffectID 0x611A4907
+key editorCameraPalette EditorCameraCellPalette.prop
+key editorCameraThumbnail EditorCameraCellThumbnail.prop
+bool editorCameraTurntableStyle true
+key editorCameraUI EditorCameraCellUI.prop
+int32 editorComplexityLimit 300
+uint32 editorCurrencyChar 9867
+key editorCurrencyIcon editors~!edi_dna_icon.png
+int32 editorDefaultBrainLevel 0
+int32 editorDefaultInitialBudget 100
+texts editorDefaultModelName
+	(cl!0x04d93065) "Bob"
+end
+uint32s editorDefaultSkinPaintScripts
+	hash(skinpaint_cell_blankMatte)
+end
+bool editorDisableCreatureAnimIK true
+keys editorEnabledManipulators
+	0x6125EE88
+	cSPEditorManipulationLimb
+	cSPEditorManipulationBoneRotation
+	cSPEditorManipulationPinning
+	cSPEditorManipulationSpine
+	cSPEditorManipulationSpineResize
+	cSPEditorManipulationStackingSimple
+	cSPEditorManipulationTranslateCreature
+	cSPEditorManipulationDeformHandle
+	cSPEditorManipulationRotationHandle
+	cSPEditorManipulationSpineScaling
+end
+key editorEscrowEffectID 0x2B243217
+bool editorInitSpine true
+key editorLight CellEditor
+int32 editorMaxBakedBlocks 65
+int32 editorMaxBudget 999
+float editorMaxHeight 2
+float editorMinHeight -2
+uint32 editorModelTranslationOptions 6
+keys editorModelTypes
+	cell
+end
+texts editorName
+	(cl!0x04d94893) "Cell"
+end
+texts editorNamePrompt
+	(cl!0x053718ce) "Naming Prompt (PLACEHOLDER)"
+end
+key editorPaintModeLight CellEditorpaintmode
+key editorPaintPalette palettes~!0x00000006.prop
+key editorPaintSwatchModel cellModelsCLL~!PaintSwatch.cll
+key editorPartsPalette palettes~!0x00000005.prop
+key editorPedestalModel cl_editor_base
+key editorRandomNameType 0x51AA76BB
+key editorSaveDirectory 0x90368EA3!0xFFFFFFFF
+key editorSaveExtension 0xFFFFFFFF.cll
+key editorSellItemEffectID 0x900D19DF
+bool editorShowVertebrae true
+float editorSkinResolutionHighQuality 0.035
+float editorSkinResolutionRealtime 0.035
+int32 editorSpineScalingNeighborInfluence 2
+key editorSporepediaCanSwitchConfigID 0x0BD61162
+key editorSporepediaConfigID Cle_Shopper
+keys editorStartupModel
+	cellModelsCLL~!0x0625A974.cll
+	cellModelsCLL~!0x0625A978.cll
+	cellModelsCLL~!0x0625A976.cll
+	cellModelsCLL~!0x0625A97A.cll
+	cellModelsCLL~!0x0625A97C.cll
+	cellModelsCLL~!0x0625A97E.cll
+	cellModelsCLL~!0x0625A980.cll
+	cellModelsCLL~!0x0625A984.cll
+	cellModelsCLL~!0x0625A982.cll
+	cellModelsCLL~!0x0625A986.cll
+	cellModelsCLL~!0x0625A988.cll
+	cellModelsCLL~!0x0625A98A.cll
+end
+key editorSwatchBackgroundMusicPatch music_cell_editor_shopping
+key editorSwatchCameraUI EditorCameraCellSporepedia.prop
+key editorSwatchPedestalModel cl_editor_base_level0
+bool editorTranslateModelOnSave true
+key editorTutorialPaintMode CLESporeGuidePaint
+key editorTutorialPartMode CLESporeGuidePart
+key editorTutorialPlayMode CLESporeGuidePart
+bool editorUseAnimWorld true
+bool editorUseShadows true
+bool editorUseSkin true
+bool editorUseSpine true
+bool editorUseSymmetry true
+key editorVertebraModel cell_parts~!cl_vertebra.prop
+uint32 editorViewableComplexityFlags 5
+float tuningVertebraFadeTime 0.5
+colorRGBA tuningVertebraHighlightColor (0.75, 0.68, 0.65, 1)
+colorRGBA tuningVertebraTorsoRolloverColor (0.75, 0.68, 0.65, 0.35)
+colorRGBA tuningVertebraTorsoSelectedColor (0.75, 0.68, 0.65, 0.8)
+colorRGBA tuningVertebraUnselectedColor (0.75, 0.68, 0.65, 0)
+key verbTrayCollection verbtrays!0x64BC540B
+key verbTrayCollectionSporepediaLargeCard verbtrays!0x64BC540B
+key verbTrayCollectionSporepediaSmallCard verbtrays!0x3F0493ED
